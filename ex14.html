@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex14</title>
+    <script>
+        var arrayCerto = []
+        var arrayErrado = []
+        var cont = 1
+        while(cont <= 10){
+            var n = parseFloat(prompt("Até que número a num vai?"))
+                if(n <= 42 && n >= 24){
+                    arrayCerto.push(n)
+                }
+                if(n > 42 || n < 24){
+                    arrayErrado.push(n)
+                }
+                cont += 1
+        }
+        alert("Estão entre 24 e 42:" + arrayCerto)
+        alert("Não estão entre 24 e 42:" + arrayErrado)
+    </script>
+</head>
+
+<body>
+    
+</body>
+</html>

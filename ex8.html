@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=Primeiro é maior, initial-scale=1.0">
+    <title>ex8</title>
+    <script>
+        var n1 = parseInt(prompt("Digite o primeiro número"))
+        var n2 = parseInt(prompt("Digite o segundo número"))
+        var media1 = 0
+        var media2 = 0
+        var mediaTotal = 0
+
+        if( n1 >= 0 && n1 <= 10){
+            media1 += n1
+        }
+
+        if( n1 < 0 || n1 > 10){
+            alert("Primeiro número invalido.")
+        }
+
+        if( n2 >= 0 && n2 <= 10){
+            media2 += n2
+        }
+
+        if( n2 < 0 || n2 > 10){
+            alert("Segundo número invalido.")
+        }
+ 
+        mediaTotal = (media1 + media2)/2
+        alert(mediaTotal)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
